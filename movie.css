@@ -1,0 +1,55 @@
+/* the two div elements that sit side by side themselves */
+.second {
+    display: inline-block;
+}
+/* the body design*/
+body {
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    background-color: rgb(179, 125, 54);
+    background-size: contain;
+    background-attachment: fixed;
+}
+/* div main container  */
+div#first {
+    margin-top: 100px;
+    padding: 10px;
+}
+/* div tag positioning on the web page*/
+div#first div#result  {
+    position: relative;
+    left: 510px;
+}
+/* label tag property value character*/
+div.second label {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+/* submit button property value character*/
+div#first form#formal input#sub {
+    color: white;
+    border-radius: 15px;
+    background-color: black;
+    margin: 6px;
+    width: 60px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    right: 200px;
+}
+
+/* this is the error class for incomplete or failed inputs*/
+.error {
+    border: 1px red dashed;
+}
+/* all inputs property value character*/
+div#first form#formal input {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    height: 11px;   
+}

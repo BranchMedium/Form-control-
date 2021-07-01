@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tobi">
+    <meta name="description" content="Movie club info">
+    <link rel="stylesheet" href="movie.css" type="text/css">
+    <title>Movie</title>
+</head>
+<body>
+    <div id="first">
+        <form id="formal">
+            <div class="second">
+            <label for="fir-name">Input your Firstname:</label><br>
+            <label for="sur-name">Input your Surname:</label><br>
+            <label for="ag">Input your Age:</label><br>
+            <label for="level">Input your current level:</label><br>
+            <label for="club">Input your Favorite-club:</label><br>
+            </div>
+            <div class="second">
+                <input type="text" id="fir-name" name="go" required placeholder="Firstname..."><br>
+                <input type="text" id="sur-name" name="hi" required placeholder="Surname..."><br>
+                <input type="number" id="ag" min="18"  name="jo" max="80" placeholder="Age..."><br>
+                <input type="number" min="1" id="level" required name="lo" max="6" placeholder="Current-level..."><br>
+                <input type="text" id="club" name="po" required placeholder="Favorite-club..."><br>
+            </div>
+            <div class="second">
+                <input type="button" id="sub" value="Submit" name="cli" onclick="enter()">
+            </div>
+        </form>
+        <br></br>
+        <div id="result">
+        </div>
+    </div>
+    <script type="text/javascript" src="move.js"></script>
+</body>
+</html>
